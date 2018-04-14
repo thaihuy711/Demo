@@ -1,0 +1,19 @@
+﻿+ Extends: để ngăn kế thừa ghi dè t dùng từ khóa final
++ override là ghi dè, từ lớp cha sang lớp con có thể chỉnh sửa thân hàm
++ overload là n?p ch?ng, trong 1 class có thê có nhiều phuong thức giống tên nhung khác tham số
+   (các hình thức ghi dè: thay đổi số luợng, kiểu dữ liệu và vị trí tham số)
+
++ 1 abstract class có thể không có phuong thức abstract nhung 1 class có 1 phương thức abtract thì class đó phải 
+là class abstract, class abstract không thể khởi tạo
++ 1 phuong thức abstract không có thân hàm
++ 1 abstract class có thể kế thừa 1 abstract class, có thể thêm thuộc tính và thân hàm
++ 1 abstract class có thể có hàm thật và hàm ảo
+
++ interface chỉ có duy nhất hàm ảo. mỗi hàm mặc định là public
++ interface chỉ cho khai báo hằng số, không khai báo biến
++ mặc định khai báo hằng của interface là public static final
+
++từ khóa final:+ biến final là hằng số
+	    + phương thức final không thê ghi dè
+	    + class final không thể kế thừa
+	    + mỗi biến static final ko có khởi tạo ban đầu gọi là biến final trống 
